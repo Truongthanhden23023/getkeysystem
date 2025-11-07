@@ -1,1 +1,170 @@
-([[This file was protected with MoonSec V3]]):gsub('.+', (function(a) _mXWgYwcH_rzy = a; end)); return(function(f,...)local t;local a;local r;local l;local d;local c;local e=24915;local n=0;local o={};while n<598 do n=n+1;while n<0x12f and e%0x2536<0x129b do n=n+1 e=(e+253)%19056 local h=n+e if(e%0x4a32)<=0x2519 then e=(e+0x271)%0x112c while n<0x10a and e%0x4a6e<0x2537 do n=n+1 e=(e*46)%8153 local t=n+e if(e%0xd70)>=0x6b8 then e=(e+0x25a)%0x3040 local e=99662 if not o[e]then o[e]=0x1 l=string;end elseif e%2~=0 then e=(e*0x1d7)%0xa3ed local e=86536 if not o[e]then o[e]=0x1 d=getfenv and getfenv();end else e=(e-0x3a3)%0x3ef8 n=n+1 local e=52030 if not o[e]then o[e]=0x1 r=tonumber;end end end elseif e%2~=0 then e=(e+0x2bb)%0x5a43 while n<0x9b and e%0x912<0x489 do n=n+1 e=(e+379)%46774 local h=n+e if(e%0x21b2)>0x10d9 then e=(e*0x10f)%0x240f local e=17362 if not o[e]then o[e]=0x1 d=(not d)and _ENV or d;end elseif e%2~=0 then e=(e*0x294)%0xb7b5 local e=36547 if not o[e]then o[e]=0x1 c="\4\8\116\111\110\117\109\98\101\114\80\73\106\76\107\89\99\102\0\6\115\116\114\105\110\103\4\99\104\97\114\72\79\83\74\73\81\82\90\0\6\115\116\114\105\110\103\3\115\117\98\65\98\111\113\115\100\99\79\0\6\115\116\114\105\110\103\4\98\121\116\101\86\71\117\114\117\120\77\114\0\5\116\97\98\108\101\6\99\111\110\99\97\116\121\73\99\66\76\86\88\69\0\5\116\97\98\108\101\6\105\110\115\101\114\116\121\105\105\69\110\109\81\106\5";end else e=(e*0x13a)%0x59b6 n=n+1 local e=1849 if not o[e]then o[e]=0x1 t=function(t)local e=0x01 local function o(n)e=e+n return t:sub(e-n,e-0x01)end while true do local n=o(0x01)if(n=="\5")then break end local e=l.byte(o(0x01))local e=o(e)if n=="\2"then e=a.PIjLkYcf(e)elseif n=="\3"then e=e~="\0"elseif n=="\6"then d[e]=function(e,n)return f(8,nil,f,n,e)end elseif n=="\4"then e=d[e]elseif n=="\0"then e=d[e][o(l.byte(o(0x01)))];end local n=o(0x08)a[n]=e end end end end end else e=(e+0x1a2)%0x8a0b n=n+1 while n<0x354 and e%0x186a<0xc35 do n=n+1 e=(e*648)%33810 local d=n+e if(e%0x4c10)<=0x2608 then e=(e*0x74)%0x1212 local e=38840 if not o[e]then o[e]=0x1 end elseif e%2~=0 then e=(e*0x3ae)%0xabca local e=25106 if not o[e]then o[e]=0x1 end else e=(e-0x3db)%0x732c n=n+1 local e=23868 if not o[e]then o[e]=0x1 a={};end end end end end e=(e*908)%32071 end t(c);local n={};for e=0x0,0xff do local o=a.HOSJIQRZ(e);n[e]=o;n[o]=e;end local function h(e)return n[e];end local j=(function(f,l)local c,o=0x01,0x10 local n={{},{},{}}local d=-0x01 local e=0x01 local t=f while true do n[0x03][a.AboqsdcO(l,e,(function()e=c+e return e-0x01 end)())]=(function()d=d+0x01 return d end)()if d==(0x0f)then d=""o=0x000 break end end local d=#l while e<d+0x01 do n[0x02][o]=a.AboqsdcO(l,e,(function()e=c+e return e-0x01 end)())o=o+0x01 if o%0x02==0x00 then o=0x00 a.yiiEnmQj(n[0x01],(h((((n[0x03][n[0x02][0x00]]or 0x00)*0x10)+(n[0x03][n[0x02][0x01]]or 0x00)+t)%0x100)));t=f+t;end end return a.yIcBLVXE(n[0x01])end);t(j(206,"zq)&6^}!CLVEmBd=&!"));t(j(104,"D1sT:*U%o7gE}kFR7oTUTEk:UgR77Us%*}*:RkoksogTTTR1okRkoR:}FR1:gkEATEk1%:O}gkTkks*oFo%U1%g:R77*7oTs}1*FR}UTs%gU:7R:oTs7E%Fr%FoT1}Es:1kFURg*g*T1k}UTeBoTTs}F:g61%R17EfR6o}ok17}:*(o*o:1:gk*oFo*RFFgE:sER*TFggTk:%:%TRkg:T*}*U}R17}s1Eg*}Fk77s}ggsRFTUEssoEF:o o:1%ET:}Fs%1;F7RsgER:7kE%*:1}T:%7tskT:E7*sR:o*EF}**URO%71TET*1}sURsOEg:UE}URg:TF:*kU%-R77TTTk**gFg%xs7}FUsRgs:Ek}=*gF7oUs:7k:o}g*U1*ggTrFTx}gUgET*k:U*REg:1kgo:gHU%osT}1*}oos:s*E1*}Fo1k1UE::RF%os-}gk17EE:EF1g*ssUk"));local e=(-45583+(function()local l,n=0,1;(function(d,n,o,e)e(n(e and n,o and o,e,e),d(n,o,d,e),d(o,d and n,e,e),d(n,o,n,n))end)(function(e,d,t,o)if l>407 then return o end l=l+1 n=(n*572)%45911 if(n%278)>=139 then return d else return e(d(o,o,o and d,o and o),t(t and o,e,d and o,e and e)and e(e,t,d,d),o(e and o,e,e,t),d(o,o,o and t,d))end return d(d(o,t,d,o and o),d(t,e,t and d,d and e),t(d,e,e,e),e(t,t,e,e))end,function(o,t,d,e)if l>200 then return t end l=l+1 n=(n-179)%29863 if(n%1658)>=829 then n=(n*149)%45521 return d else return d(d(t,e,o,e and e),e(o,e,o,d),o(t,o and d,e,e),d(d and d,o,e,e))end return d(o(e,e,o,e),d(o,o,o and e,e and d),d(o,o,o,t),e(e,o,o and t,e))end,function(o,d,e,t)if l>171 then return e end l=l+1 n=(n*124)%32617 if(n%1124)<=562 then return t else return d(t(e,d,o,o),e(e,o,d,e)and o(e,d,o and o,d),t(d,o and e,t,o),e(d,t,d,e))end return e(d(o,d,d,e and t),d(o,t,e,t)and o(e,o,e,o),d(t,t,t and o,e and e)and e(d and t,e,o and d,t and e),o(d,t,t,e))end,function(t,e,d,o)if l>406 then return e end l=l+1 n=(n*861)%30255 if(n%1642)>821 then n=(n*171)%39931 return o else return e(t(t,o,d,e)and o(t,o,t,e),o(d,o,d and e,e),e(d,t and d,o,e),o(e,o and o,t,e and e))end return t(e(t,o,e,d),o(d,d,t,o),e(d,e,o,o),d(t,o,d and d,e))end)return n;end)())local ce=(getfenv)or(function()return _ENV end);local h=a.ubZHivrr or a.qJ_xznLg;local d=2;local y=1;local t=3;local c=4;local function le(k,...)local m=j(e,"uOjo^%3m.R;/x,vc^#,;xm/^;OR.m/3.%%R3R^R^m,oR%joxjxOxx;.^mR%v^/o.mRmmmm3yjxjcj,7%.cm;3m%^^Ojv,/3;o%vj,v/x;RR3x%,cxc;vRxR33^3m3%o,O%O/OmcOv%3.%o^Nj,O;gmc^vOxv///jR%.j3c/g;v;vRm%jmj%v^/ooOcRvR;m.3%%j.cR.m;3R%.^.oxj3Y/cRcoxjxwxa;RjjO/cxvR,3V3Ocycc.,x,3;oRc.c.Om;3%vOxx/R;3Ro.s3,Ro.mo^j.8vc/v.O.oOjOTO,zv/xx%jo,j;OmJ^cO,vjcc.;%R.mc3x%R.R;j.xmx3xO;,3jmO^gOvv,/x.j%m/jRjISoc),,OOj3O.cR,c,.R;/^Rv.odxcxv3,ox5O/cccvm33O^vo/j.O%4jcmOxx//3;oR9m,3;%mRjmOOvOOc.v%,j9ahcs,vcvRx%^co;jmO^ZOvvm/oxc%;jRomx3R%3RORO.;3ccmv.,O/v;/ccv3,cx^^x^Oj3OoKzo3^.o;j.rjcx,vx,%%^3jcOx5Rox%jovoO;;R,.^mO%vRj;mRRm;3N%R,/x3/o;W.,m;vm/c.OoiO/y.c%vjxc/xvm,3.%mY%,^;omj^OO3mj/,.,j/jRc.x%/aj,.3QmB.j3x%m^xvvY3y,_v.^3c%x^Ro3joO{jOj;,mx./ORv./xxx;x;/ojx^1#3covZjOjjOZFm;O,^x^/^R;^j.3%,%xc3oojjkxcv,xxmx%;o.co.mx%/%oo^,Rco_jvc,/;,;xRm^O3^jvv.,cxj;cRx,jv^,ox%/O3c.%3.%3^jx,/.;%Rjmc3x,R.mmoj<O9c;vm,^;oo%j_...O3j^coxm,.,3.%%^/O,OxO3-mvmxv/,^%oxOcexcRjc^Oo<jjDvxR,Rx.;c;Rj;O%>jvc,xxR/3/m,1m,m/%m^^oO3/m;3,%.omqOjOP,c;vjxvmvm,Rom,3^%R,,3j^vo/j.O%&jjc.jojv;,3xo/dR,.;.c,m.%m;%c^xoRm3.jmo%3^vo2jokc.v.j3.%%^jmj./mm3^^.oooO;;R/.^mO%vRv;ORcmmccc%,Rx3/ococbvxxx/R;cm%R1mOc%v,xc/x;R,vcmv^x,R,RxR3.m3m^vo,xm/jRc.xmR33%o.R3,Ox;O.,m;3m%^^O^vxO3cmO^Ro3joc,R,;mx^m.^j/v,j/,/Rmj.;mOmjj3^3oRjqsvvxvO.Om/%/^.o%.Omx%^^)o,Oxjmqy,j,3,3x//mj,O.9%cj,cxx/R,.,o._m,%;^mo^3o3c%v%ooxo^OvOOcm,;;3/c;RRR.RomcOvxx//.;%,.v.,;/,.xRxRj.=3vj;oxj;O;cc.;m%3j^coxjRO3cojc,cx;/m;^ROmvv//v.%ojj^rxcRv3j.y^O38m/Rm^3.^vo/j.3R3m3m%WA/j%O/RC.O3;%m^^.33jm^3%v%v//c;xRR,^,/^O5mvmRmo^^x%o%^v.O..o^;jox;m3;%OO,m;/3%Ojccvx;/R,.%mj%cRj;/.m.k3%v,,vxm/^;O,ovR,,xj^jo.OxIRc3j;o%oOc%cxc,/./oR^o.o%Ojccvx//3y%^x#,^,c,%/R/o.c.c3,O%j,o^o%;R;c.om:%,Rm;3Romc%O%Jo/j^5%Oocvvj,^/;/om%.o3/%.^3oxcxOxpRc^m=%,^/,Q/x;RR3.omn;,cHRvRmm.3%%j.OR/./3;%.%jO<jROonoco;O%,^.o%jjJccx3ROm.o/jR,.;mm3^%Oov%c%.*%cx,cxx/Rv,c.c^x_/c/R;;.;mO3Hv;,%xj;cRx.Rm3RoRSocj;OmP^cO,vx/cxv%Rj.c3x%R^3..Romj3xok^joOjoEc,/,;,^x%;%.xm/Nocx,,x;/mv,ccvvv?xx..R;.0m;3-^/omxj;,R;.mm^3O^v.c3.Om1jvc,xxR/3;ovv/,3;%c^^oOOv3:^Oj.^OoOO;cvc.mo3R^,o;jm3.3333^cO^O3?^c^v.3/%3^ooPO,K;,m%oOOxn;/R..%mj%c^xRj33OoYmv,,;xmc.E3KOvc,;x^//oOOx)Rc3vo,(/,,.,m.^.m%v^/o.3mmo3j%m^so.jjO%c/,v//x3;jRx.vm.%3%^o^j;nxUc.omm%,^;om.;.o3,%.j;6xc^;3.xmR3333^7j,O; Rc^vOxv//;.R%mj;v%v^Ro3joOMc,v;^(J^/O/,./m.3%o^xv,xoR%O%.%Rv,mvo.%mj^.vxojRvcvO.oOx%O/mm,%O}/;/Rm.x.omjRo^OT%cR,cxx/RvvAmc^,,;O;x;.jOO^c/v.,%d%Ova.c.v.R3%=;mj;Om0^%R%jocj.O.xx;vR/x/;m;;^vm^3o%/oxo3OeO&c/,;,^/j;/Rm.;3.%v%Oc.O;Oocv;,/cx;/;;O.,mo3,^vo^jvO%cvvxvjRo.O3/%;^.oOo3)Rojvo,j!jvj,Tx;moRR.o3x%x%.#Ojx7,Ljc^;j;^/x;.^v..j3j6U/OcO3a,c^;OR/.3/mR..jjcjRO^Ooo- x8Ocov^xvxL;x^mO%_Bv,,;xm/^.Oc,//3.%R^jjcOxm,%c%5o%/,;vRm.^mO/j/W/eRROjqOvx,Rx3jjOo.,.O3m%^^OR^.,mm3jo^O3cv;R;j.omE%,jx,^/eoO%O^x^Ov%c,T^ %R;3.%o^#j,O;Tmc^o;:v//;cR%.j3c;G;v;RRm.j3x3o,mxv/ORv./v^,^/o;oRc.,m.%x^vo^/;//R^.O3vo,v^/;^j%;3O3jc3j3O.3aomv%xxmO/3vv/R3.Oo,cvx/R;3Ro3jTmc;o3vx/wjvo,xR.c3oO,/xvx,vjRCbRv^;%v3R%c^oo,ORORcmRc/m/v/c%^jgOOc;vm,^o.AcV^cxm%33^coxjRm,3^%,^jx;/m;^ROxj3/%.^%ojRj4xcRv3,oxb;,R;.,x,3O^vo/jxO%novc,xxR/;;.Rfm,3;%/^^ojOv<cc,v%,j/c/;RR.mmo3 xSo;jmO^Ajvv,/x.xm,c.cm,3R3m^oo=O,Ox)^v^,o/v/TR..%mjmc%/oRj.Oonjv,v%xmx3/R.vmv3.%x^jjcOxO/Fvvo,^/,;xRm.^mOm{3Oo.j;OjlOvx,Rx3/o;^.,mx3m%R^OjvO/#.V.vjxc/x;RR3.^m_%,;xomj^OOccv/,.x%x^Mx.xmR33%,^Aj,O;jmc3vOxv//;.R%.;3c%xR3o3joOncvv;,Rx^/OOO./mR3%%^ocjxOR!x./vPxv/;x%R^.j3v%/^.oRjmIccxvRc^xo/OR,.;v;3^%OovjxO.9%cjcO>R/R;mRo.o3,%;^m^3j^Nvc,v.,;xj;cRx;Rm,3o%jo,jxOm2ccOctvj/.;.Rj.33x%R^3^%o/y,cvvmvOxO;vR/R;.m3j%^oxo3O3Doc(,,v^/m;3RO.o3/%.^%ojoj-xcRv3,oxe;vR;.m,33O^vo/jRO%Zjvc,xox/3;oRC.13;%m^^%Oj_r/c.v%,j/c/%RR.3v33E^vo;jmO^JOvvvO&o/%;j.c/33R%m^ooOO,wvcxv^,O/vv%R..3mj%c/coRj3Oo8Ov,,;xmx3,v.vmx3.3%^jjcOxO/ cvo,j/,;cRm.^mOmv3jo.jmOjFOvxv^x3x%;/.,m,3m3O^OjvO/O;:ovj,o/x/ER3.omt3c%oomjROOy/v/,.x%/j/3.xm/33%.^:j,O;LmJmvOxv//;.R%.o3c3v.jo3joO0fcv;,mx^xo/j./mR3%%oocjxORh3-mv*x,/;;RR^.j3v%/^,o%jjrc0hvR,3xo,FRv.;mm3^%OovoRO.T%A;,cxx/R;.Ro.O3,3x%Oo^jOivS;v.,%xjxOPR.Rmm3o3oo,j;Omj^3.,vxx/.;3Rj.o3x3/%moojoE,kHvm,^xO;v;O..m33j%joxjRO3{ocv,,x;/m;^RO.)3/%.%oojOcCxc;v3,^xg/O;j.mm^3OROo/jRO%7j3j,xxR/3;^RFm,3;3R.OoOOcS/Q^v%,j/c/v;o.3m%3I%jo;jmO^jOcO,/x;/%;^.c.m3R3.%voLj:g;cvv^,O/v/,;,.%m3%c%RoRj3OoOjc),;xx/^;v.vm/3.%%%cjcOv Rc/vo,p/,;;;;.^mO%v^/o.j3Ojcc^v,Rx3/o;O.,m;3m%^^^jvO/7.c%vvxc/x;Rvocjv%,k;cmRRR.%mj%;^3c3/j;x.xmR33;./oRj.x%_3j%O^ojccx=vcj,^%x^,o3joOb^j%.^xoO/ORv./m.3c%jocjxoRRocovOx,/;;mR3.O.&3,^.omjjOjcxvR,3vo/3R,.xmm33%O^qj/o.OOcjvOxx//;3R^.Cmo3/^mo%jOO%c/vR,%x^;c;r.vm33o%e^^j;O.>^c%vox//.;%R/mc3,%R^3^cjzPvc;vm,^xO;vR//.m%3o^coxjRO3*oczocx;/m;^Rjmv3/%.^3o3Oc6xcRv3,cxK;,R;,^vo,3xO;r3;.;m33o^/omvm;oR.m,3;%mR^;SROm^3x^v^Oj,;xR,.3mo3gRj;.Rx.OwOc/,/x./%cm)jvO,/Rc/O;kRjmv^/%,^Ojo;/R..%mj3,^xoRj3ooO3v,,/xm/^;ORjm/m;%;^joOOx}xc3vo,B,,;,Rm.3mO3Z^/oxj%ojY%vx,/x3/%;n.vm;3,mO^OjcO/O%c%voxc/v;RR;..mZ%,^;^^j^Ojcvv/c^x%/oRc.,mR33%o^2^cO;:.c^vOxv//;./%R/3c%,^Ro3joOjc,v;cjx^/jRv.xm.3%%jocooOR_mcovox,/;;m/^Rj3v%x^.o3jjOOcxvR,/xo/OR,.xmm3^%Oov.,O.T%cjvQxx/R;3R^.;3,%;^mo^jj9vc/v.j,xj/jRx.Rm3,O/%/^j;Ocz^cO,vO/jmO.c/co,%x./^ooj%A,c;vmjRG%Om-./;m%3c^coxjR3/m3%%^cOoj%O^?3cj/c,O/%RmOcOjcRv3,o!cOowPc;,R,%^vocj.O%qjo^^;ovjo;oROm,3;%mR,oOjoq/c.v%j%jjp,9%v/mo3,^,o;jm3OmL3o^vj,9jOOT%vO,3///O;^O,E;cmv^c^/v;/R..%v%%c^,oRj3Oo9yv,vVj6/^;j.vR,3.%3^jjcOxk,c/vo,0/,xxRm.%mOmv^,o.j3Ojccvx,vx3x%>,.,mx3m%/^OjvO/j.cmvj,O/x;/R3..mwm,^xomj3OONsv/vjx%/.OM.xm;33%,^1jvO;qRc^v%,o//;.R%.x3c%,^Ro;j.Orc,v;cRx^/jRv;/m;3%%oocjxORyRcov}o//;;RR^.j3v%/^.o%jR7cc,vR,mxo/jR,.;.j3^%oovj,O.?%cjcO,o/R;RRo.^3,%;^m%^jo0vcvv.,.xj/ORx.Rm.3o%^o,j,OmE^cOcvv./.;RRj.o3x%;^3%ojj<,cvvm,.xO/mR/...^3j%^oxjxO3goc_c,vo/m;RRO.o3/%R^%%jjjPxcvv3,.x /oR;;m.d3O%^o/jRO%9ovc,xv!/3;.RY.j3;%,^^oOooK/cvv%,%/c;xRR;3mv3>%oo;j,O^kRvvc/x;/%;..c.j3R%c^ooy;xD;cvv^,^/v;/R.;%.j%c%ooRj,Oo_.v,c;,o/^;..v.j3.%/^j^cojJRcvvo,O/,/jRm.^mR%v%jo.jxOj_mvx,Rvj/o;o.,.O3m%3^Oovo^d.cmvj,j/x;xR3.o,j%,^;omj%OOcvv/,Rxx/jRc.xmR3R%o^_j,%x%RjOvO,^//;.R%c%voxv/j;^.;OzCEv;,mx^j^Oov,m.mO%jocjx3e3/3O^%ocO/O/cRx.xo;^.xomjjWccxvR,3xo;4,x.xmm3^%Oovj/O.j%oj,c,O/R;3Roc%,,x;;x;3jOqvc/v.v^xj;cRxR/b>3o%#o,j/Oms^cOc1,j/.;3Rj.O3x%R^3%oo;_,c/vm,%xO/%R/...,3j%OoxjRO39oc0c,vo/m;3RO.U3/%x^%ojom(xc,v3,oxa;,R;.m.j3O%to/jxO%7jvc,x#,/3;^R-m,3;%R^^%O%^r/cRv%,o/c;cRRR..v3C%ro;jxO^nOvvv,x;/%;3.c.j3R%3^ooYoo(;c.v^,%/v;,R..%./%c^xoRj3OoKOv,,;,c/^;O.vm,3.%%^jjcjdZRc3vo,O/,;;Rm.^;O%v^/o.jmOjccvx,Rx3oow3x,m;3c%^^Ojv3^m33.%3o!j;}xc/.om^%,^;om3Rmcmo%.,.x;/jRc.xxv;;/x;,%cO;Z/c^vOxv_cK,9,c33c3.^Ro3jo%j3x%xo/jRjovOc;v^,^x^mjjvORT3covTx,/;;mR^.Om%%/^.o%...O3/%3j.=;cjR,.vmm3^%ORo3c.Omjcjv^xx/R;3,Rcjxvxm;xo^j%>vc/v.j.j/jReO.Rmv3o%)o,m;.3mm%;%jo^jmOoRj.%3x%R^3m3Rjmj%/%/oRxo;vR/..m%3j^c^x3RO3qmcL,,x;y.ORcjvj3/3v^%ojOc^v%;^RovjmOcwRcxvjx%;j;,.R.om%%co,o/O/OOcoc33x%m^^oOOvt/m.^3RjxO;xRR.3mo39^,O;33O32Ovv,/x./%;j,./x3/ct,xxR/3;oRH;,Oi/v/%R..%mj;3//;,.vm^3,jc^RooO.;ORjm/3.%%RjR/m,.jc.m,3R%3^oo{O,j;R,^/^mj%Ojccjv^.o.OmU%ccx,,Pxv;3mv.^._%;^vxcx:;RR3.o/3xx/.;/j^ORcvv/,.OROmOm1Gxxxcx,;%j,jodmc^vOjjoj=,c;cA/.x;;c;%j%Ohc,v;,mx^/O,xx/m.3v%jocjx3,3/3/%^ORO/tRcRv,ml%/^.o%jj=ccxomO3xo/.R,.;mm/RR;.OR;.;mo%m%Oxv/R;3Ro.U3,%;^cm^jOOjc/v.,%o3Ok>cc^m33.%Bo,j;m/3R%,oc^^/;;%Rjmc3x%Rj3;j3}Mcc;vm,^xO;vR//l/%3^^coxjRO3 ocNx,sR/R;^ROmv3/%.x%;o%cKvcRv3,oxX;,R;,%o^3o^vo/j.O%tjvcdxSR/3/oRQm,3;RR;%R^.Rmj3;%^^mj,Oh,xc%,cxc/c3,jR;vR;.mm^3O^vm/xvmxm%%3^ooT3GmR3R%jo3oJc,cRvR,/,^/coRjROo:rv,^.jxj/;OR.m/3.%%R3R^R^m,oR%joxjxOxx;.^mm%v^/o.3..O3/%/^/cR/o;/.,m;3mRR;j;O.^m3%xo%^oo%O%c/.%l;c3vo,!/,;;;mj;,Rx%/jRcRRmR33%o^wo3O;Wmc^o%^%j-K,8ox/,,xj/.o.joOKc,v;,m^^Oj%v./.H3%%jocmx..mR%x%^o3jRO%R^.%3v%/^.;x.om.m>vR,,xo/hR,xv,x,mx%/aR;ROCmcj,cxx/R;3Ro3#;x%xvOx,/;;mR^.OmvrO/Oo3jjsccxvR,3go%3(^c^,vx//.Oocmc33v%R^3ooj:{,c;o%R^xO/^R/..m%;%xO;O.;.;3.c?vjx;/m;^v3xj,^x%mmojjoexcRv3jojxyvOo.mm^3O^v%%j.O%fjvcm%xR/3;oR)m,3;%m3^^%Ovl/c.v%,jx;;xRR.cmo3j^,o/jmO^BOEav%x./.;jR(mx3R%33o^^O,D,cmvm,Oxm;/;;Rmmj3o^x^Oj3OoV_v,vfxm/m;OR1m/3;%%^joeOxJ,c3vo,I/v;;;RvOmO3o^/^^j%Ojcc_xvvx3/.;NRjm;m*%^%oojO/rvc%v.xc/x;R;.;!mF3^^;oRj^OOcvc,v;x%/;RcRomR33%o%j^jO;Onc^v/xv//;.R%R.3c3O^RocjoOjc,c;cmx^/%Rv.vm.3;%joc%vOR)3cov^x,/x;m/^.%3v%/^.o%jjOxcxvRvoxo/ZR,.xmm3%%O%Vo;O.i%cjvoxx/R;3;%R;3,%/^moxjO>vc/v.,cxj;cRx./m33^%eo,o3Om_^cO,cx//.;%/j;o3x%R^3oojHOjc;vmcoxO;vR/.;m%3o^cox./O34ocW,vx;/m;^ROcO3/%.^%^^;m6xc/v3,%xH;,R;;mmR3O%)o/j;O%jvvcvvxv/3;3RG.m3;%m^^oOo3S/cxv%,j/c;xRR.3m/3)^co;j/O^Xovvv,,c/%;%.c.t3R%3^o%Mj.s;c;v^,^/v,mR.Rmc3%c%GoRj,OoIzv,vx,%/^;3.v;O3.%%^j^Oo%{Rcxvo,m/,;;RmR3.j%v%jo.o.Ojccvx,Rxm/o;o.,.O3m%3^Oovj^0.cmvj,;/x;xR3R%m3%,^,omj.OOcvv/c.xm/j;j.xmx33mc^!ocRv&mc.vOv<//;.R%R^.j%x^vo3o^Okc,v;vR,3/O;^./.c3%%jocovj^23c;vG,^/;;mR^.Omv%/^/o%jRnccvvRv3xv/SRc.;.o3^%^ovo,j^{%c%,cc;/R;3Ro;0cR%;^;o^j^Fv0ov.vmx;;c;i.RRj3o%no,oxO/X^c3,v,j/.;%RjROmR%R^xooov=,c;vm,^x3;vRv..m/3j%OoxoRoO9ocj,,co/m;mROR&mv%.^.oj^,*xcRv3cox;;,R,.mmm3O%3o/o;jc#jco,xx;/3;oRD.cm,%m^RoOj%B/c.v%v^x%;xRc.3R33}^,o;jmjxpOcO,/xv/%;^.c.x.R%3^%o-jop;c;v^ Oov;/R;.%.;%c3xoR%3jx2lvc,;,m/^/%.v.,.O%%^%jcOv&Rc3vocax/;;R;.^m^%vmmo.omO^ccch,Rv%/o;?.,m;.y%^^3jvO,e.c%vjxcxv;RRR.om%%,^xomo3mvcvvc,.xv/jRc.xRRxa%o^^j,Ov+mjfvOv1x%;.R;.jm3%x^Ro3o%j/c,c),mv./ORv./m.mc%j^ojxOcC3c%v>,,,m;mRm.ORR%/^xo%o^O/cxvx,3x%/{R,.;RmmO%O^Oj/O/G%Ov,c,vO%;3Rm.1.;%;^mo^jO%.c/v,,%x^;cRx.Rm33m%(^Tj;Ox+^co,v,,/v;%R3mcm5%R^3oo^IOjc;v/,^x%;vxm...m3;^c^OjRo/TocV,,,xx;;^Rmmvmj%.^%ojoOUvcRv,,ov%;,R;.m.3RR^v^oj.Ox:jvc,xxRxQ;oR^m,mj%m^3oOjvjmc.v.,jx;;xR,.3;o3/^,o,jmj^5OOo,/,.x/;jRjmx3v%3^oo*jcOOcmv.,OxO;/R..%RjRR^xo,j3OmMb+3,;vm/c;ORjm/3x%%%mjcjxjoc3v3,G,3;;R/.^;O%c^/o/j%jxccO^,Rxx/v;aROm;/o%^^jjvOxz.cRvmxc/x;Rvj.omO%,%x;^j^O%cvOR,.x%/j/cO.mR3;%o^^j,jj8mZ3cRxvxd;./..j3c%x%/^xjoO3c,l,,mx^/O/0.,m.3x%j3jjxORp3cocOx,/v;mR/.Omd%/%.%%jjOjcxO3,3xm/5;cvmmm3.%O^jj/O.(%Ojv;xx/,;3Rm.!RR%;%Ro;jOOoc/c;,%xj;c;v;Om33R%4^vj;Omk^XovRx//c;%xjmc3x%R%.o^j+O%c;sv,^xO;vR/.vm%33^c^^jRO.yo5+c,x;/R;^R,mv3c%.^%33OcOycRvm,ox:;,/;Rmm^3%^vocj.jj?jvccmxR/x;oRjm,3;%m%3^,OvOjc.aX,j/c;x/R..mo3m^,^Ojm^++O&7cmx./,;j/Rmx3R%3%%oxO,Oocmvm,O/v;//..mmj3.^x^jj3^jT4{,%Rxm/,;ORmm/mm%%^joOOxOic3vx,l/c;;RmRRmO33^/o.j%Oocccvcox3/x;dROm;3m%^3Oo,O/OOc%v/xcv.;R;...mG3m^;^Rj^OOcvc,vvx%/,RcR,mR33%o%j.RO;Ooc^OOxv//;.;mO&3c3R^Ro,joO{c,v;vmx^/;RvR.m.3m%j^c^jORBvcovxx,xo;mR^.;3v%c^.o,jjOOcxGRv^xo/^R,.vmmm;%Oov^.O.ERcjvOxx/;;3;%.,3,%v^m%%jOHvc/_.,mxj/oRx.,m3.%%W^c.3OmARcOvxx//.;%R...3x%c^3ooj}Evc;vR,^xOO^R/..m%3o^coxjRO33,cN,,x;/R;^ROmv3/,O^%o3OcOjcRvm,oxMxoR;.mm^3j^vo/j.Omh,vc,xxR/.;oRHm,3;%mx^Rm%vK,c.v%,j/c;x,Rv3/o3f%;o;jmO^jOO3Rc%.m.^%;c,c,.x3/x%O^30;cRv^,O/vO;b/.%mR%c^xoR.x.%3c%;jxbvc3;OR;m/3.%%/%R^RF3x3j^x^_OcORc.c3,%%v%Oo.j%Oj^j%/^%o%j%,o.,.33m%^^OO///x%vjR3m,,xc^c/cx;;m,^xomj^OOcvv//.o^cjRcR mR33%o/^R3.m3xc3vOxv//;.R%R;3^Rx^Ro3joOLO%v;,mx^/O,;./m.3%%oocjxORT3tRvqx,/;;.R^.o3v%/%;o%jj_ccxvR,3xoxj/o.;mm3^%%ovj/O.j%1j,cxx/R;3Ro.;3,%;3*o^jOJvcxv.,mxjxcRc.Rm33o%+o,o%Om#^jO,vx//.;mRjmc3x3/^,ooj6:,QIvm,^xO;v;m..m33j^coxjRO3Ioc3,,x;/m;3ROmc3/%.^RojOcaxcxv3,oxZ/c;v.mm%3O%3o/j.O%ijsm,xx//3;oRNm,3;3R%moOjO_/c/v%,j/c;xv^.3m^3z^vo;j;O^OomR,/x;/%;R.cmx3Rm3^^o5Oc5;cRv^,3/v/,;3.%m%%c^,oRj3OoOjcv,;x//^;o.vm/3.3m^,jcjO(Rccvo,*/,;;;O.^mo%v%Lo.j%OjccS%,Rx3/o;i.,m/3m%^;ojvO/-.c3vjxc/x;R#3.^m:%,^;.oj^OOcvvx,.x%/j/O;5mR33%omcj,O;{mt3c;xv//;.x3.j3c%x3c^%joO9c,cp,mx%/O/,./mx3;%jocjxOcW3c^v-,O/c;mR^.Om%%/^Ro%jjmOcxvR,3x^/QR,.;.R,O%Oovj/j,_%cj,cvx^v;3Ro.a3,%;.xo^ooO.c/v;,%xx;cRx.Rm3mO%Zo,j;OR+^co,v,,,%;%Romc.O%R^3oo^Xj.c;v.,^xj;vvg...mm/^cocjRoRwoc2,,x;xx;^Rjmv3v%.^mojoOmRcRv.,o,%;,R;.mR^c3^vo,j.Om(jo^,x,/x,;oR^m,/j%m^^oOOvOjc.vm,jxo;xR/.3.%3%^,o,jmjRZOvv,/v.,j;jRjmx3x%3..oMjcO3cmvR,Ov/;/R..%mjme^xoxj3O.k2vc,;vm,.;ORjm/3.%%m3jcjv^pc3vR,ec;;;Rm.^mOmR^/oxj%O.ccvv,Rxxxm;bROm;..%^^jjvO/q.cRvmxc/x;R/m.omO%,3;%/j^O%cvv/,.cR/j/O;%mR3x%om,j,O;dmc^v/xv/c;.R/.jmO%x3R^^joO^c,vv,mO^/ORvR,m.3R%j^OjxO;:3I%^,x,/v;m;;.O3v%/3./.jjOocxv,,3,j/h;cRmmm3R%O3;j/O.s%cjv^xx/c;3Ro.{3,%;^movjOOjc/vv,%x^;cxx.;m33m% %Oj;%^8^{ovUx//,;%;.mc3x%R33^ojfOjc;vx,^,z;v;,v^m%3.^cmmjRO38ocijmx;/v;^R%mv3/%.^%o3OcOOcRv,,oxj;,;x;Om^3m^vmjj.O%sj#ccRxR/x;oR3m,mR%m%3^jOvOjc.v;,j/c;x;/Rcmo3.^,^,jmO^<OQNv^x./v;jR^mx3R%3%%.xO,O^cmc,,O/v;/R.;jmj3%^x^oj3O%hQc,,vxm/R;O/Rm/3v%%%^o.OxLcc3O;,M/,;;/mRxmO3^^/ovj%jOcccvc3x3/;;UR;m;3m%^%o^^O/O+c%vmxc/x;R;.RomH33^;^^j^OOcvc,o^x%/xRcROmR33%o^q^;O;!,c^v/xv/,;.;%..3c3O^R%cjoO3c,cxvmx^/mRvRmm.3%%j%c^%ORNxcov3x,1,;m;3R/3v3j^.mRjjVccxc/,/xo/.R,xvmm3^%O%2ooO.Mvcjv.xx/R;3RoR,3,38^mo,jOO8c/c.v3xj/^Rx/xm33R%}^c^mOm};cOv;x//.;%/j.R3x%c^3oRjU30c;cRvNxO/%R/Rom%3j^c^v^^O3&/cHvjx;/m;^;oR33/3O^%.bOcXxcRv3c.xM/oR;RTm^3o^v^/^.O%KmvcOvxR/x;oxPc,3;%x^^o%OvO/c.O%,//c/ORRR.mo;(^,^xo;O^dmvvcOx./%;j;cRm3R%x^oo3O,ORcmc3vR/v/jR.,Omj%c^xoRjxOo5.v,,cxm/^;O.v.m3.%/^jomOx)/c3c%o,/,/ORm/,mO%v^/%.mcOjT3vxv8x3xj;MRc.^3m%x^OooO/+.c%c^,%/x/jR3,^mp%,^;omoOOO1%v/vOx%/^RcRx.R33%R^Uo%O;!vc^co,3//;cR%R.3c%x^R%3oxO!y^v;,vx^xbRvR,,^3%%;ocmROR*3cov+Om/;/kR^.33v%/^.o%j,Sc0ovR,cxo/jR,Rxm.3^%Rov3jO.9%cjcc,m/R;vRo..3,3R^m^3o3Ev1^v.I;xj;cRxR/m.3o%;o,jcOmn^cOc vm/./URj.^3x%R^3^%^O=,w3vmO/xO;vR/...m3j%moxo%O36%cMv,,R/m;/RO;R3/3s^%3jjo1xA<v3j%xnvjR;/m.v3O%%o/^3O%ojvcvv,O/3;/R>/R3;%m^^%Oo/=/FAv%,;/cxoRR;3m%3b%%o;jcO^fcvvv/v./%;R.cRo3R%v^o3XRv-;cvv^,o/vvcR.Rm.,%c%^oRojOo pv,c;,//^;R.v.o3.;.^j^OjO>Rccvov//,;;RmR3.,%v%%o.j.Ojccvxv/,^/o;/.,x.3m%^^OjvjFr.c,vj,;/x;/R3RoRU%,%Oomj%OO_3v/v;Uv/j;m.x.c33%o^(^,j,KmcxvO,3///mR%R^.R%x%jo3%/Onc,v;,mxR/O;../m,3%%jocjxj;b3c/vf,m/;;RR^/Omo%/%Go%jREco3vRv.,//T;3.;;v3^%Oov^/O;S%c/,c,%/R/%RoRjcO%;%Oo^3j-vc/v.vmx,;c;m.Rm/3o%Zo,oxjoe^c,,v,g/.;%RjROm3%R%ooo^Oq,c;vm,^,/;v;^...j3j%OoxoRjo?oc.,,c%/m;,RORw.%%.^voj%3lxcRv3coxj;,;o.mm,3O%,o/o;RR:jcR,xc./3;oR#.c.3%m^coOjo>/c.v%v^,/;x;%.3R;3C^,o;oRjR Oc/,/x,/%;j.cmx.o%3^xoAj;&;cRv^vO,.;/;?.%R/%c%%oRo.jmqIc3,;,o/^;O.vR/c^%%^/jcj%eR^RvovjxO;;;O.^/.%v^/o.omjRcccm,R2,/o;-.,.x.j%^^,jvjxX.c%vjxc,m;RRc.omx%,^xomo^jxcvco,.c./j;..x./3R%o^Rj,j3Xmc^vOvvxm;.Rv.jm.%xRxo3o%Occ,c^,mOj/ORv./.;3,%j^;jx3my3covk,cxx;m;P.O/x%/^.o%jjjmcxcj,3xc/URc.;.m.^%O^3j/ORp%c/,c,vvo;3Rx.G;R%;^mo^^Oj;c/cO,%x/;c/o.RR3mR%7^3j;jzQ^qR,v,//,;%R;mc.o%R^coo%1O^c;vc,^xo;vvO...m33^c^%jRjxIocX,,v;,j;^R;mvm^%.%^ojoO3.cRcP,oFx;,R;.mm^;.^v^3j.O,_jvc,xxRxO;oRRm,m%%m^3oOoYOoc.vc,jc.;xRR.3Ro3^^,^^jmOv&Oc,,/,;xx;jR;mx3v%3^ooajct/cmcJ,O,/;/R..%mjmm^x^oj3Oc{+vc,;,m,^;ORmm/m)%%^xjcjv%jc3vx,*,o;;Rm.^RO3;^/^Oj%O/ccc/,R,.xc;FRmm;3,%^^OjvO/O,c%v,xcxO;RR3.omS3/^;^rj^Oxcvv,,.c%/%RcR%mR.^%o%xj,jxORc^v/xvcj;.R%.j.c%v^R^7joO;c,cR,m,3o%RvR3m.;3%jocjxj/h/covxx,/c;mR^.O.W3/^.^jjjO^cxvR,3,%/oR,R.mm.%%Oovj/O.MxcjvRxxxm;3R%.im,3v^mo,jOoRc/cj,%,^x%RxRom3R;% o,j;om>3cOv.x/xj;%;Omcmv,,^3ovj2oxc;vm,^,o/xR/R^m%3m^coxjRj.OxcAv;x;,c;^ROmvm,%x^%^hOcOOcRv3,ox{xoR;ROm^3c^vo,j.j%X^vcv%xR,c;oR;m,mx3v^^o/OvOmc.v%,j,co.RRR*mo3;^,.,jmj3Hvvvv3x.KJ;j.cmxm/3v^ooxO,:ccmv^,O,wxOR.Rjmj;,^xoRj3OoOOv,v^xmxO;ORqm/m.mk^jo.Oxoxc3v,,JxcxARm.vmO3;^/o.j%ojV.vxvox3/,;pvKm;mR3O^OoRO/%3c%vjxcxv;;R3.cmY;/^;omj^joccv/v%x%8gRc.xmR333,^YomO;O^c^voxvx/x.R%./3c%,^R^Xjojjjmv;vOx^v,Rv./m..%%xoco3OROFcocmx,,;//R^./3v3%^.^ojjOcARvR,cxoxmR,R^mmR^3.ovo^O.<mcjOOxxx//vRo.;3,m{^mo^jOjvh/v.,cxj/RRxR.m3m%;xo,o%Om%9cO,vx//.vxRj./3x3j^3oojBh,hXvm,vxO/;R/.;m%m^33oxo^O3oxcJ,,x;,m;/RO.R3/3o^%^OOcOvc/v3,cxJ/jR;.mm^mo3/o/o%O%Ocvc,xxR/3/ORp..3;3^^^ooOvO/O.v%,x/c/^RRROmomjR3o;oOO^Omvv,/x.,%;,.c.33R3t^oocO,OxOOv^,x/v/OR..%mj%c%.oRojOo*%v,,;xm/^/v.v.%3.3O^joOOxoRc.vo,;/,x.RmxjmOmC3mo.ogOjo3vx,Rx3,o;j.,.%3m%c^Oo,O/O;mRvj,//xv;R3.om:3c^comoOOObov/,.x%x^//.x.m33%.^pj,O;ORc.vO,,//xRR%.j3c%x33o3jvO__xv;,Rx^xO/R./.j3%m,ocomORO.cmvT,./;,vR^.O3vm/^;o%j,zcSmvRv%xoxjjO.;.o3^.Yovj/O.Omc.,c,R/R;/Ro.F3,3x%xo^jcrvoxv.
+--[[  
+đŸŸ£ GET KEY GUI by ChatGPT  
+âœ¨ Giao diá»‡n viá»n tĂ­m, cĂ³ Generate Key, Notification, Auto Copy, Move GUI, Key háº¡n 24h.
+]]--
+
+local CoreGui = game:GetService("CoreGui")
+local TweenService = game:GetService("TweenService")
+local UserInputService = game:GetService("UserInputService")
+local HttpService = game:GetService("HttpService")
+
+-- XĂ³a GUI cÅ© náº¿u cĂ³
+if CoreGui:FindFirstChild("GetKeyGUI") then
+	CoreGui:FindFirstChild("GetKeyGUI"):Destroy()
+end
+
+-- GUI chĂ­nh
+local ScreenGui = Instance.new("ScreenGui", CoreGui)
+ScreenGui.Name = "GetKeyGUI"
+
+local Frame = Instance.new("Frame", ScreenGui)
+Frame.Size = UDim2.new(0, 330, 0, 220)
+Frame.Position = UDim2.new(0.35, 0, 0.35, 0)
+Frame.BackgroundColor3 = Color3.fromRGB(20, 20, 25)
+Frame.BorderColor3 = Color3.fromRGB(160, 0, 255)
+Frame.BorderSizePixel = 3
+Frame.Active = true
+
+local UICorner = Instance.new("UICorner", Frame)
+UICorner.CornerRadius = UDim.new(0, 15)
+
+local Title = Instance.new("TextLabel", Frame)
+Title.Size = UDim2.new(1, 0, 0, 40)
+Title.BackgroundTransparency = 1
+Title.Text = "đŸ”‘ GET KEY SYSTEM"
+Title.Font = Enum.Font.GothamBold
+Title.TextSize = 20
+Title.TextColor3 = Color3.fromRGB(200, 150, 255)
+
+-- TextBox nháº­p key
+local TextBox = Instance.new("TextBox", Frame)
+TextBox.PlaceholderText = "Nháº­p Key cá»§a báº¡n..."
+TextBox.Size = UDim2.new(0.8, 0, 0, 35)
+TextBox.Position = UDim2.new(0.1, 0, 0.4, 0)
+TextBox.BackgroundColor3 = Color3.fromRGB(40, 40, 60)
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.Font = Enum.Font.Gotham
+TextBox.TextSize = 16
+Instance.new("UICorner", TextBox).CornerRadius = UDim.new(0, 10)
+
+-- NĂºt Check Key
+local CheckKey = Instance.new("TextButton", Frame)
+CheckKey.Text = "âœ… Check Key"
+CheckKey.Size = UDim2.new(0.8, 0, 0, 35)
+CheckKey.Position = UDim2.new(0.1, 0, 0.65, 0)
+CheckKey.BackgroundColor3 = Color3.fromRGB(120, 0, 255)
+CheckKey.TextColor3 = Color3.fromRGB(255, 255, 255)
+CheckKey.Font = Enum.Font.GothamBold
+CheckKey.TextSize = 18
+Instance.new("UICorner", CheckKey).CornerRadius = UDim.new(0, 10)
+
+-- NĂºt Generate Key
+local GenerateButton = Instance.new("TextButton", Frame)
+GenerateButton.Text = "â¡ Generate Key"
+GenerateButton.Size = UDim2.new(0.8, 0, 0, 35)
+GenerateButton.Position = UDim2.new(0.1, 0, 0.8, 0)
+GenerateButton.BackgroundColor3 = Color3.fromRGB(80, 0, 180)
+GenerateButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+GenerateButton.Font = Enum.Font.GothamBold
+GenerateButton.TextSize = 18
+Instance.new("UICorner", GenerateButton).CornerRadius = UDim.new(0, 10)
+
+-- NĂºt Move
+local Move = Instance.new("TextButton", Frame)
+Move.Text = "â‡…"
+Move.Size = UDim2.new(0, 30, 0, 30)
+Move.Position = UDim2.new(1, -35, 0, 5)
+Move.BackgroundColor3 = Color3.fromRGB(50, 0, 100)
+Move.TextColor3 = Color3.fromRGB(255, 255, 255)
+Move.Font = Enum.Font.GothamBold
+Move.TextSize = 20
+Instance.new("UICorner", Move).CornerRadius = UDim.new(1, 0)
+
+-- Cho phĂ©p Move GUI
+local dragging, dragStart, startPos
+Move.InputBegan:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseButton1 then
+		dragging = true
+		dragStart = input.Position
+		startPos = Frame.Position
+	end
+end)
+UserInputService.InputChanged:Connect(function(input)
+	if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+		local delta = input.Position - dragStart
+		Frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+end)
+UserInputService.InputEnded:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseButton1 then
+		dragging = false
+	end
+end)
+
+-- Notification viá»n tĂ­m
+local function showNotification(msg, color)
+	local Noti = Instance.new("Frame", ScreenGui)
+	Noti.Size = UDim2.new(0, 280, 0, 50)
+	Noti.Position = UDim2.new(0.5, -140, 0.1, 0)
+	Noti.BackgroundColor3 = Color3.fromRGB(30, 0, 60)
+	Noti.BorderColor3 = Color3.fromRGB(180, 0, 255)
+	Noti.BorderSizePixel = 3
+	Noti.BackgroundTransparency = 0.2
+	Instance.new("UICorner", Noti).CornerRadius = UDim.new(0, 12)
+
+	local Label = Instance.new("TextLabel", Noti)
+	Label.Size = UDim2.new(1, 0, 1, 0)
+	Label.BackgroundTransparency = 1
+	Label.Text = msg
+	Label.Font = Enum.Font.GothamBold
+	Label.TextSize = 16
+	Label.TextColor3 = color or Color3.fromRGB(255, 255, 255)
+
+	Noti.Position = UDim2.new(0.5, -140, 0.05, -60)
+	TweenService:Create(Noti, TweenInfo.new(0.4, Enum.EasingStyle.Quad), {Position = UDim2.new(0.5, -140, 0.05, 0)}):Play()
+
+	task.delay(4, function()
+		TweenService:Create(Noti, TweenInfo.new(0.4), {Position = UDim2.new(0.5, -140, 0.05, -60)}):Play()
+		wait(0.4)
+		Noti:Destroy()
+	end)
+end
+
+-- Generate Key
+local function generateKey()
+	local key = "BR-" .. string.upper(HttpService:GenerateGUID(false)):sub(1,8)
+	return key
+end
+
+-- Biáº¿n lÆ°u key vĂ  thá»i gian
+local generatedKey, expireTime
+
+GenerateButton.MouseButton1Click:Connect(function()
+	generatedKey = generateKey()
+	expireTime = os.time() + 86400 -- 24h
+	setclipboard(generatedKey)
+	showNotification("đŸ”® Key: " .. generatedKey .. " (ÄĂ£ copy!)", Color3.fromRGB(180, 130, 255))
+end)
+
+-- Check Key há»£p lá»‡ vĂ  cĂ²n háº¡n
+CheckKey.MouseButton1Click:Connect(function()
+	if not generatedKey then
+		showNotification("â ï¸ Báº¡n chÆ°a Generate Key!", Color3.fromRGB(255, 200, 200))
+		return
+	end
+
+	if os.time() > expireTime then
+		showNotification("â° Key Ä‘Ă£ háº¿t háº¡n! (24h)", Color3.fromRGB(255, 100, 100))
+		return
+	end
+
+	if TextBox.Text == generatedKey then
+		showNotification("âœ… Key chĂ­nh xĂ¡c!", Color3.fromRGB(100, 255, 100))
+		wait(1)
+		ScreenGui:Destroy()
+		-- Táº£i GUI chĂ­nh táº¡i Ä‘Ă¢y
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Truongthanhden23023/G-i-/refs/heads/main/Don't%20Wake%20the%20Brainrots!"))()
+	else
+		showNotification("âŒ Sai Key!", Color3.fromRGB(255, 100, 100))
+	end
+end)
