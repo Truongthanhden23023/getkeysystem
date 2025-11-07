@@ -1,6 +1,6 @@
 --[[  
-đŸŸ£ GET KEY GUI by ChatGPT  
-âœ¨ Giao diá»‡n viá»n tĂ­m, cĂ³ Generate Key, Notification, Auto Copy, Move GUI, Key háº¡n 24h.
+🟣 GET KEY GUI by ChatGPT  
+✨ Giao diện viền tím, có Generate Key, Notification, Auto Copy, Move GUI, Key hạn 24h.
 ]]--
 
 local CoreGui = game:GetService("CoreGui")
@@ -8,12 +8,12 @@ local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
 local HttpService = game:GetService("HttpService")
 
--- XĂ³a GUI cÅ© náº¿u cĂ³
+-- Xóa GUI cũ nếu có
 if CoreGui:FindFirstChild("GetKeyGUI") then
 	CoreGui:FindFirstChild("GetKeyGUI"):Destroy()
 end
 
--- GUI chĂ­nh
+-- GUI chính
 local ScreenGui = Instance.new("ScreenGui", CoreGui)
 ScreenGui.Name = "GetKeyGUI"
 
@@ -31,14 +31,14 @@ UICorner.CornerRadius = UDim.new(0, 15)
 local Title = Instance.new("TextLabel", Frame)
 Title.Size = UDim2.new(1, 0, 0, 40)
 Title.BackgroundTransparency = 1
-Title.Text = "đŸ”‘ GET KEY SYSTEM"
+Title.Text = "🔑 GET KEY SYSTEM"
 Title.Font = Enum.Font.GothamBold
 Title.TextSize = 20
 Title.TextColor3 = Color3.fromRGB(200, 150, 255)
 
--- TextBox nháº­p key
+-- TextBox nhập key
 local TextBox = Instance.new("TextBox", Frame)
-TextBox.PlaceholderText = "Nháº­p Key cá»§a báº¡n..."
+TextBox.PlaceholderText = "Nhập Key của bạn..."
 TextBox.Size = UDim2.new(0.8, 0, 0, 35)
 TextBox.Position = UDim2.new(0.1, 0, 0.4, 0)
 TextBox.BackgroundColor3 = Color3.fromRGB(40, 40, 60)
@@ -47,9 +47,9 @@ TextBox.Font = Enum.Font.Gotham
 TextBox.TextSize = 16
 Instance.new("UICorner", TextBox).CornerRadius = UDim.new(0, 10)
 
--- NĂºt Check Key
+-- Nút Check Key
 local CheckKey = Instance.new("TextButton", Frame)
-CheckKey.Text = "âœ… Check Key"
+CheckKey.Text = "✅ Check Key"
 CheckKey.Size = UDim2.new(0.8, 0, 0, 35)
 CheckKey.Position = UDim2.new(0.1, 0, 0.65, 0)
 CheckKey.BackgroundColor3 = Color3.fromRGB(120, 0, 255)
@@ -58,9 +58,9 @@ CheckKey.Font = Enum.Font.GothamBold
 CheckKey.TextSize = 18
 Instance.new("UICorner", CheckKey).CornerRadius = UDim.new(0, 10)
 
--- NĂºt Generate Key
+-- Nút Generate Key
 local GenerateButton = Instance.new("TextButton", Frame)
-GenerateButton.Text = "â¡ Generate Key"
+GenerateButton.Text = "⚡ Generate Key"
 GenerateButton.Size = UDim2.new(0.8, 0, 0, 35)
 GenerateButton.Position = UDim2.new(0.1, 0, 0.8, 0)
 GenerateButton.BackgroundColor3 = Color3.fromRGB(80, 0, 180)
@@ -69,9 +69,9 @@ GenerateButton.Font = Enum.Font.GothamBold
 GenerateButton.TextSize = 18
 Instance.new("UICorner", GenerateButton).CornerRadius = UDim.new(0, 10)
 
--- NĂºt Move
+-- Nút Move
 local Move = Instance.new("TextButton", Frame)
-Move.Text = "â‡…"
+Move.Text = "⇅"
 Move.Size = UDim2.new(0, 30, 0, 30)
 Move.Position = UDim2.new(1, -35, 0, 5)
 Move.BackgroundColor3 = Color3.fromRGB(50, 0, 100)
@@ -80,7 +80,7 @@ Move.Font = Enum.Font.GothamBold
 Move.TextSize = 20
 Instance.new("UICorner", Move).CornerRadius = UDim.new(1, 0)
 
--- Cho phĂ©p Move GUI
+-- Cho phép Move GUI
 local dragging, dragStart, startPos
 Move.InputBegan:Connect(function(input)
 	if input.UserInputType == Enum.UserInputType.MouseButton1 then
@@ -101,7 +101,7 @@ UserInputService.InputEnded:Connect(function(input)
 	end
 end)
 
--- Notification viá»n tĂ­m
+-- Notification viền tím
 local function showNotification(msg, color)
 	local Noti = Instance.new("Frame", ScreenGui)
 	Noti.Size = UDim2.new(0, 280, 0, 50)
@@ -132,39 +132,39 @@ end
 
 -- Generate Key
 local function generateKey()
-	local key = "BR-" .. string.upper(HttpService:GenerateGUID(false)):sub(1,8)
+	local key = "KOBTHG-" .. string.upper(HttpService:GenerateGUID(false)):sub(1,8)
 	return key
 end
 
--- Biáº¿n lÆ°u key vĂ  thá»i gian
+-- Biến lưu key và thời gian
 local generatedKey, expireTime
 
 GenerateButton.MouseButton1Click:Connect(function()
 	generatedKey = generateKey()
 	expireTime = os.time() + 86400 -- 24h
 	setclipboard(generatedKey)
-	showNotification("đŸ”® Key: " .. generatedKey .. " (ÄĂ£ copy!)", Color3.fromRGB(180, 130, 255))
+	showNotification("🔮 Key: " .. generatedKey .. " (Đã copy!)", Color3.fromRGB(180, 130, 255))
 end)
 
--- Check Key há»£p lá»‡ vĂ  cĂ²n háº¡n
+-- Check Key hợp lệ và còn hạn
 CheckKey.MouseButton1Click:Connect(function()
 	if not generatedKey then
-		showNotification("â ï¸ Báº¡n chÆ°a Generate Key!", Color3.fromRGB(255, 200, 200))
+		showNotification("⚠️ Bạn chưa Generate Key!", Color3.fromRGB(255, 200, 200))
 		return
 	end
 
 	if os.time() > expireTime then
-		showNotification("â° Key Ä‘Ă£ háº¿t háº¡n! (24h)", Color3.fromRGB(255, 100, 100))
+		showNotification("⏰ Key đã hết hạn! (24h)", Color3.fromRGB(255, 100, 100))
 		return
 	end
 
 	if TextBox.Text == generatedKey then
-		showNotification("âœ… Key chĂ­nh xĂ¡c!", Color3.fromRGB(100, 255, 100))
+		showNotification("✅ Key chính xác!", Color3.fromRGB(100, 255, 100))
 		wait(1)
 		ScreenGui:Destroy()
-		-- Táº£i GUI chĂ­nh táº¡i Ä‘Ă¢y
+		-- Tải GUI chính tại đây
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Truongthanhden23023/G-i-/refs/heads/main/Don't%20Wake%20the%20Brainrots!"))()
 	else
-		showNotification("âŒ Sai Key!", Color3.fromRGB(255, 100, 100))
+		showNotification("❌ Sai Key!", Color3.fromRGB(255, 100, 100))
 	end
 end)
