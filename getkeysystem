@@ -1,0 +1,170 @@
+--[[  
+🟣 GET KEY GUI by ChatGPT  
+✨ Giao diện viền tím, có Generate Key, Notification, Auto Copy, Move GUI, Key hạn 24h.
+]]--
+
+local CoreGui = game:GetService("CoreGui")
+local TweenService = game:GetService("TweenService")
+local UserInputService = game:GetService("UserInputService")
+local HttpService = game:GetService("HttpService")
+
+-- Xóa GUI cũ nếu có
+if CoreGui:FindFirstChild("GetKeyGUI") then
+	CoreGui:FindFirstChild("GetKeyGUI"):Destroy()
+end
+
+-- GUI chính
+local ScreenGui = Instance.new("ScreenGui", CoreGui)
+ScreenGui.Name = "GetKeyGUI"
+
+local Frame = Instance.new("Frame", ScreenGui)
+Frame.Size = UDim2.new(0, 330, 0, 220)
+Frame.Position = UDim2.new(0.35, 0, 0.35, 0)
+Frame.BackgroundColor3 = Color3.fromRGB(20, 20, 25)
+Frame.BorderColor3 = Color3.fromRGB(160, 0, 255)
+Frame.BorderSizePixel = 3
+Frame.Active = true
+
+local UICorner = Instance.new("UICorner", Frame)
+UICorner.CornerRadius = UDim.new(0, 15)
+
+local Title = Instance.new("TextLabel", Frame)
+Title.Size = UDim2.new(1, 0, 0, 40)
+Title.BackgroundTransparency = 1
+Title.Text = "🔑 GET KEY SYSTEM"
+Title.Font = Enum.Font.GothamBold
+Title.TextSize = 20
+Title.TextColor3 = Color3.fromRGB(200, 150, 255)
+
+-- TextBox nhập key
+local TextBox = Instance.new("TextBox", Frame)
+TextBox.PlaceholderText = "Nhập Key của bạn..."
+TextBox.Size = UDim2.new(0.8, 0, 0, 35)
+TextBox.Position = UDim2.new(0.1, 0, 0.4, 0)
+TextBox.BackgroundColor3 = Color3.fromRGB(40, 40, 60)
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.Font = Enum.Font.Gotham
+TextBox.TextSize = 16
+Instance.new("UICorner", TextBox).CornerRadius = UDim.new(0, 10)
+
+-- Nút Check Key
+local CheckKey = Instance.new("TextButton", Frame)
+CheckKey.Text = "✅ Check Key"
+CheckKey.Size = UDim2.new(0.8, 0, 0, 35)
+CheckKey.Position = UDim2.new(0.1, 0, 0.65, 0)
+CheckKey.BackgroundColor3 = Color3.fromRGB(120, 0, 255)
+CheckKey.TextColor3 = Color3.fromRGB(255, 255, 255)
+CheckKey.Font = Enum.Font.GothamBold
+CheckKey.TextSize = 18
+Instance.new("UICorner", CheckKey).CornerRadius = UDim.new(0, 10)
+
+-- Nút Generate Key
+local GenerateButton = Instance.new("TextButton", Frame)
+GenerateButton.Text = "⚡ Generate Key"
+GenerateButton.Size = UDim2.new(0.8, 0, 0, 35)
+GenerateButton.Position = UDim2.new(0.1, 0, 0.8, 0)
+GenerateButton.BackgroundColor3 = Color3.fromRGB(80, 0, 180)
+GenerateButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+GenerateButton.Font = Enum.Font.GothamBold
+GenerateButton.TextSize = 18
+Instance.new("UICorner", GenerateButton).CornerRadius = UDim.new(0, 10)
+
+-- Nút Move
+local Move = Instance.new("TextButton", Frame)
+Move.Text = "⇅"
+Move.Size = UDim2.new(0, 30, 0, 30)
+Move.Position = UDim2.new(1, -35, 0, 5)
+Move.BackgroundColor3 = Color3.fromRGB(50, 0, 100)
+Move.TextColor3 = Color3.fromRGB(255, 255, 255)
+Move.Font = Enum.Font.GothamBold
+Move.TextSize = 20
+Instance.new("UICorner", Move).CornerRadius = UDim.new(1, 0)
+
+-- Cho phép Move GUI
+local dragging, dragStart, startPos
+Move.InputBegan:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseButton1 then
+		dragging = true
+		dragStart = input.Position
+		startPos = Frame.Position
+	end
+end)
+UserInputService.InputChanged:Connect(function(input)
+	if dragging and input.UserInputType == Enum.UserInputType.MouseMovement then
+		local delta = input.Position - dragStart
+		Frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+end)
+UserInputService.InputEnded:Connect(function(input)
+	if input.UserInputType == Enum.UserInputType.MouseButton1 then
+		dragging = false
+	end
+end)
+
+-- Notification viền tím
+local function showNotification(msg, color)
+	local Noti = Instance.new("Frame", ScreenGui)
+	Noti.Size = UDim2.new(0, 280, 0, 50)
+	Noti.Position = UDim2.new(0.5, -140, 0.1, 0)
+	Noti.BackgroundColor3 = Color3.fromRGB(30, 0, 60)
+	Noti.BorderColor3 = Color3.fromRGB(180, 0, 255)
+	Noti.BorderSizePixel = 3
+	Noti.BackgroundTransparency = 0.2
+	Instance.new("UICorner", Noti).CornerRadius = UDim.new(0, 12)
+
+	local Label = Instance.new("TextLabel", Noti)
+	Label.Size = UDim2.new(1, 0, 1, 0)
+	Label.BackgroundTransparency = 1
+	Label.Text = msg
+	Label.Font = Enum.Font.GothamBold
+	Label.TextSize = 16
+	Label.TextColor3 = color or Color3.fromRGB(255, 255, 255)
+
+	Noti.Position = UDim2.new(0.5, -140, 0.05, -60)
+	TweenService:Create(Noti, TweenInfo.new(0.4, Enum.EasingStyle.Quad), {Position = UDim2.new(0.5, -140, 0.05, 0)}):Play()
+
+	task.delay(4, function()
+		TweenService:Create(Noti, TweenInfo.new(0.4), {Position = UDim2.new(0.5, -140, 0.05, -60)}):Play()
+		wait(0.4)
+		Noti:Destroy()
+	end)
+end
+
+-- Generate Key
+local function generateKey()
+	local key = "BR-" .. string.upper(HttpService:GenerateGUID(false)):sub(1,8)
+	return key
+end
+
+-- Biến lưu key và thời gian
+local generatedKey, expireTime
+
+GenerateButton.MouseButton1Click:Connect(function()
+	generatedKey = generateKey()
+	expireTime = os.time() + 86400 -- 24h
+	setclipboard(generatedKey)
+	showNotification("🔮 Key: " .. generatedKey .. " (Đã copy!)", Color3.fromRGB(180, 130, 255))
+end)
+
+-- Check Key hợp lệ và còn hạn
+CheckKey.MouseButton1Click:Connect(function()
+	if not generatedKey then
+		showNotification("⚠️ Bạn chưa Generate Key!", Color3.fromRGB(255, 200, 200))
+		return
+	end
+
+	if os.time() > expireTime then
+		showNotification("⏰ Key đã hết hạn! (24h)", Color3.fromRGB(255, 100, 100))
+		return
+	end
+
+	if TextBox.Text == generatedKey then
+		showNotification("✅ Key chính xác!", Color3.fromRGB(100, 255, 100))
+		wait(1)
+		ScreenGui:Destroy()
+		-- Tải GUI chính tại đây
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Truongthanhden23023/G-i-/refs/heads/main/Don't%20Wake%20the%20Brainrots!"))()
+	else
+		showNotification("❌ Sai Key!", Color3.fromRGB(255, 100, 100))
+	end
+end)
